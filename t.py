@@ -12,6 +12,7 @@ i = 0
 new_min = int(min) + 60
 new_sec = int(sec)
 time.sleep(1)
+
 while new_sec != int(strftime('%S')) :
       print "new_sec = ",new_sec
       print "current time is ", strftime('%S')
