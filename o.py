@@ -84,6 +84,7 @@ def chktime(time):
 if __name__ == '__main__':
    dstp = raw_input("Enter a host to ping: ")
    nu = raw_input("How many time: ")
+   loop = raw_input("Do you loop it (default n): ")
    pur = get_des(dstp)
    ping_result = ('NA','NA','NA')
 
