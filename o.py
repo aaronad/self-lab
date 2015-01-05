@@ -110,7 +110,6 @@ if __name__ == '__main__':
 #       print "Host not found"
 #       raise Exception
 
-
 #   ping_result = ping_time(pur,nu)
 #   print "The ping result from :",pur,"Average time is :",ping_result[0],"ms"
 
